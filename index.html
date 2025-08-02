@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Ngoyi Lumbuku - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button class="lang-btn" onclick="toggleLanguage()" id="langBtn">EN</button>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <img src="https://i.ibb.co/Q3Sy0Y1N/ngoyi.jpg" alt="Abraham Ngoyi Lumbuku" class="profile-image">
+                <h2 class="profile-name" data-fr="Abraham Ngoyi Lumbuku" data-en="Abraham Ngoyi Lumbuku">Abraham Ngoyi Lumbuku</h2>
+                <p class="profile-title" data-fr="Directeur Audiovisuel • Designer Graphique • Monteur Vidéo & Photo • Photographe & Vidéaste Professionnel • Développeur WordPress • Marketeur Digital" data-en="Audiovisual Director • Graphic Designer • Video & Photo Editor • Professional Photographer & Videographer • WordPress Developer • Digital Marketer">Directeur Audiovisuel • Designer Graphique • Monteur Vidéo & Photo • Photographe & Vidéaste Professionnel • Développeur WordPress • Marketeur Digital</p>
+            </div>
+
+            <div class="profile-details">
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt detail-icon"></i>
+                    <span data-fr="Lomé, Togo" data-en="Lomé, Togo">Lomé, Togo</span>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-phone detail-icon"></i>
+                    <span>+228 712 213 79 / +243 831 700 110</span>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-envelope detail-icon"></i>
+                    <span>abrahamlumbuku@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h3 class="section-title" data-fr="Compétences Techniques" data-en="Technical Skills">Compétences Techniques</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span data-fr="Production Audiovisuelle" data-en="Audiovisual Production">Production Audiovisuelle</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span data-fr="Design Graphique" data-en="Graphic Design">Design Graphique</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span data-fr="Développement Web" data-en="Web Development">Développement Web</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span data-fr="Marketing Digital" data-en="Digital Marketing">Marketing Digital</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span data-fr="LANGUES" data-en="LANGUAGES">LANGUES</span>
+                    </div>
+                    
+                    <!-- Donut Chart Container -->
+                    <div class="donut-chart-container">
+                        <div class="donut-chart">
+                            <svg class="donut" width="120" height="120" viewBox="0 0 120 120">
+                                <circle class="donut-hole" cx="60" cy="60" r="45" fill="transparent"></circle>
+                                <circle class="donut-ring" cx="60" cy="60" r="45" fill="transparent" stroke="#333" stroke-width="8"></circle>
+                                <circle class="donut-segment english" cx="60" cy="60" r="45" fill="transparent" stroke="#ffd700" stroke-width="8" stroke-dasharray="226.08 282.6" stroke-dashoffset="226.08"></circle>
+                                <circle class="donut-segment french" cx="60" cy="60" r="45" fill="transparent" stroke="#ffed4e" stroke-width="8" stroke-dasharray="211.95 282.6" stroke-dashoffset="211.95"></circle>
+                            </svg>
+                            <div class="donut-text">
+                                <div class="donut-number">155%</div>
+                                <div class="donut-label" data-fr="Total" data-en="Total">Total</div>
+                            </div>
+                        </div>
+                        
+                        <div class="donut-legend">
+                            <div class="legend-item">
+                                <div class="legend-color english-color"></div>
+                                <div class="legend-text">
+                                    <span class="legend-name" data-fr="Anglais" data-en="English">Anglais</span>
+                                    <span class="legend-percentage">80%</span>
+                                </div>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color french-color"></div>
+                                <div class="legend-text">
+                                    <span class="legend-name" data-fr="Français" data-en="French">Français</span>
+                                    <span class="legend-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="#services" class="nav-link active" data-fr="Mes Services" data-en="My Services">Mes Services</a>
+                <a href="#pricing" class="nav-link" data-fr="Tarifs" data-en="Pricing">Tarifs</a>
+                <a href="#works" class="nav-link" data-fr="Réalisations" data-en="Works">Réalisations</a>
+                <a href="#education" class="nav-link" data-fr="Formation" data-en="Education">Formation</a>
+                <a href="#experience" class="nav-link" data-fr="Expérience" data-en="Experience">Expérience</a>
+                <a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 data-fr="Découvrez mon Espace Créatif Extraordinaire!" data-en="Discover my Amazing Creative Space!">Découvrez mon Espace Créatif Extraordinaire!</h1>
+                        <p class="hero-subtitle" data-fr="<code>Je crée des contenus audiovisuels innovants.</code>" data-en="<code>I create innovative audiovisual content.</code>"><code>Je crée des contenus audiovisuels innovants.</code></p>
+                        <button class="card-btn" data-fr="EXPLORER MAINTENANT" data-en="EXPLORE NOW">EXPLORER MAINTENANT</button>
+                        
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">8+</span>
+                                <span class="stat-label" data-fr="Années d'Expérience" data-en="Years Experience">Années d'Expérience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2257+</span>
+                                <span class="stat-label" data-fr="Projets Réalisés" data-en="Completed Projects">Projets Réalisés</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">90+</span>
+                                <span class="stat-label" data-fr="Clients Satisfaits" data-en="Happy Clients">Clients Satisfaits</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label" data-fr="Prix et Récompenses" data-en="Awards">Prix et Récompenses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Mes Services" data-en="My Services">Mes Services</h2>
+                </div>
+                <div class="cards-grid">
+                    <div class="card fade-in">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=200&fit=crop" alt="Professional Video Production Set" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 20px;">
+                        <h3 class="card-title" data-fr="Production Audiovisuelle" data-en="Audiovisual Production">Production Audiovisuelle</h3>
+                        <p class="card-content" data-fr="1. Production Audiovisuelle
+•	Montage vidéo (Premiere Pro, DaVinci Resolve, Final Cut Pro)
+•	Motion design & animations (After Effects)
+•	Design sonore & mixage audio
+•	Étalonnage (color grading) et correction couleur" data-en="1. Audiovisual Production
+•	Video editing (Premiere Pro, DaVinci Resolve, Final Cut Pro)
+•	Motion design & animations (After Effects)
+•	Sound design & audio mixing
+•	Color grading and color correction">1. Production Audiovisuelle
+•	Montage vidéo (Premiere Pro, DaVinci Resolve, Final Cut Pro)
+•	Motion design & animations (After Effects)
+•	Design sonore & mixage audio
+•	Étalonnage (color grading) et correction couleur</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Design Graphique" data-en="Graphic Design">Design Graphique</h3>
+                        <p class="card-content" data-fr="•	Adobe Photoshop , Adobe Lightroom, Adobe Illustrator, Canvas/
+•	Création de logos, identité visuelle & branding, flyers
+•	Graphismes pour réseaux sociaux (bannières, posts, publicités)
+•	Design print (flyers, brochures, affiches)" data-en="•	Adobe Photoshop, Adobe Lightroom, Adobe Illustrator, Canvas
+•	Logo creation, visual identity & branding, flyers
+•	Social media graphics (banners, posts, advertisements)
+•	Print design (flyers, brochures, posters)">•	Adobe Photoshop , Adobe Lightroom, Adobe Illustrator, Canvas/
+•	Création de logos, identité visuelle & branding, flyers
+•	Graphismes pour réseaux sociaux (bannières, posts, publicités)
+•	Design print (flyers, brochures, affiches)</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Développement Web" data-en="Web Development">Développement Web</h3>
+                        <p class="card-content" data-fr="•	Installation de thèmes personnalisés
+•	Création de landing pages (Elementor)
+•	Intégration WooCommerce, E-commerce
+•	Creation web ( HTML, CSS, JS ) frontend avec cursors" data-en="•	Custom theme installation
+•	Landing page creation (Elementor)
+•	WooCommerce integration, E-commerce
+•	Web creation (HTML, CSS, JS) frontend with cursors">•	Installation de thèmes personnalisés
+•	Création de landing pages (Elementor)
+•	Intégration WooCommerce, E-commerce
+•	Creation web ( HTML, CSS, JS ) frontend avec cursors</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Marketing Digital" data-en="Digital Marketing">Marketing Digital</h3>
+                        <p class="card-content" data-fr="•	Stratégie réseaux sociaux (organique & payante)
+•	Gestion de campagnes (Instagram Ads, Facebook Ads)
+•	Email marketing) gestionnaire des médias sociaux
+•	créer du contenu digital" data-en="•	Social media strategy (organic & paid)
+•	Campaign management (Instagram Ads, Facebook Ads)
+•	Email marketing) social media manager
+•	Create digital content">•	Stratégie réseaux sociaux (organique & payante)
+•	Gestion de campagnes (Instagram Ads, Facebook Ads)
+•	Email marketing) gestionnaire des médias sociaux
+•	créer du contenu digital</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Développement WordPress" data-en="WordPress Development">Développement WordPress</h3>
+                        <p class="card-content" data-fr="•	Installation de thèmes personnalisés
+•	Création de landing pages (Elementor)
+•	Intégration WooCommerce, E-commerce
+•	Creation web ( HTML, CSS, JS ) frontend avec cursors" data-en="•	Custom theme installation
+•	Landing page creation (Elementor)
+•	WooCommerce integration, E-commerce
+•	Web creation (HTML, CSS, JS) frontend with cursors">•	Installation de thèmes personnalisés
+•	Création de landing pages (Elementor)
+•	Intégration WooCommerce, E-commerce
+•	Creation web ( HTML, CSS, JS ) frontend avec cursors</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Photographie & Vidéographie" data-en="Photography & Videography">Photographie & Vidéographie</h3>
+                        <p class="card-content" data-fr="•	Photographie d'événements (corporate, mariages)
+•	Photographie de produit (e-commerce)
+•	Tournage 4K (b-roll, témoignages, publicités)
+•	le cinéma, télévision, publicité, événements
+•	clips musicaux, documentaires, films institutionnels" data-en="•	Event photography (corporate, weddings)
+•	Product photography (e-commerce)
+•	4K filming (b-roll, testimonials, advertisements)
+•	cinema, television, advertising, events
+•	music videos, documentaries, institutional films">•	Photographie d'événements (corporate, mariages)
+•	Photographie de produit (e-commerce)
+•	Tournage 4K (b-roll, témoignages, publicités)
+•	le cinéma, télévision, publicité, événements
+•	clips musicaux, documentaires, films institutionnels</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Montage Vidéo & Photo" data-en="Video & Photo Editing">Montage Vidéo & Photo</h3>
+                        <p class="card-content" data-fr="•	Retouche photo professionnelle (Lightroom, Photoshop)
+•	Montage d'interviews, vlogs, documentaires
+•	Contenu court (Montages Instagram, TikTok/Reels avec transitions & effets)" data-en="•	Professional photo retouching (Lightroom, Photoshop)
+•	Editing of interviews, vlogs, documentaries
+•	Short content (Instagram, TikTok/Reels edits with transitions & effects)">•	Retouche photo professionnelle (Lightroom, Photoshop)
+•	Montage d'interviews, vlogs, documentaires
+•	Contenu court (Montages Instagram, TikTok/Reels avec transitions & effets)</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section id="pricing" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Tarifs" data-en="Pricing">Tarifs</h2>
+                </div>
+                <div class="cards-grid">
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Prix de Base" data-en="Starter Price">Prix de Base</h3>
+                        <p class="card-content" data-fr="GRATUIT heure* • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress" data-en="FREE hour* • flyers • Social media graphics (banners, posts, advertisements) • Web Development • shotfilm • Logo Design • SEO Optimization • WordPress Integration">GRATUIT heure* • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress</p>
+                        <small data-fr="*Gratuit seulement lors de la commande de services payants." data-en="*Free only when ordering paid services.">*Gratuit seulement lors de la commande de services payants.</small>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in" style="position: relative;">
+                        <div style="position: absolute; top: -10px; right: 20px; background: var(--primary-color); color: var(--background-color); padding: 5px 15px; border-radius: 15px; font-size: 12px; font-weight: 600;">POPULAIRE</div>
+                        <h3 class="card-title" data-fr="Paiement à l'Heure" data-en="Hourly Payment">Paiement à l'Heure</h3>
+                        <p class="card-content" data-fr="$50 heure • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress" data-en="$50 hour • flyers • Social media graphics (banners, posts, advertisements) • Web Development • shotfilm • Logo Design • SEO Optimization • WordPress Integration">$50 heure • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Temps Plein" data-en="Full Time">Temps Plein</h3>
+                        <p class="card-content" data-fr="$2500 • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress" data-en="$2500 • flyers • Social media graphics (banners, posts, advertisements) • Web Development • shotfilm • Logo Design • SEO Optimization • WordPress Integration">$2500 • flyers • Graphismes pour réseaux sociaux (bannières, posts, publicités) • Développement Web • shotfilm • Design de Logo • Optimisation SEO • Intégration WordPress</p>
+                        <button class="card-btn" data-fr="COMMANDER MAINTENANT >" data-en="ORDER NOW >">COMMANDER MAINTENANT ></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Works Section -->
+            <section id="works" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Réalisations" data-en="Works">Réalisations</h2>
+                </div>
+                <div class="works-filter">
+                    <button class="filter-btn active" data-fr="TOUTES CATÉGORIES" data-en="ALL CATEGORIES">TOUTES CATÉGORIES</button>
+                    <button class="filter-btn" data-fr="CLIPS MUSICAUX" data-en="MUSIC VIDEOS">CLIPS MUSICAUX</button>
+                    <button class="filter-btn" data-fr="DESIGN GRAPHIQUE" data-en="GRAPHIC DESIGN">DESIGN GRAPHIQUE</button>
+                    <button class="filter-btn" data-fr="SITES WEB" data-en="WEBSITES">SITES WEB</button>
+                    <button class="filter-btn" data-fr="PHOTOGRAPHIE" data-en="PHOTOGRAPHY">PHOTOGRAPHIE</button>
+                </div>
+                <div class="works-grid">
+                    <div class="work-item fade-in">
+                        <img src="https://i.ibb.co/qMfjkVYw/0x1900-000000-80-0-0.jpg" alt="Music Video" class="work-image">
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Clip Musical - Ada Ehi" data-en="Music Video - Ada Ehi">Clip Musical - Ada Ehi</h4>
+                        </div>
+                    </div>
+                    <div class="work-item fade-in">
+                        <img src="https://i.ibb.co/dJJ2YtxX/Software-Engineering.jpg" alt="Website Design" class="work-image">
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Site Web - Cosmo Production" data-en="Website - Cosmo Production">Site Web - Cosmo Production</h4>
+                        </div>
+                    </div>
+                    <div class="work-item fade-in">
+                        <img src="https://i.ibb.co/yBph9xD0/ee5111291039151f45a721f59f5138bc.jpg" alt="Graphic Design" class="work-image">
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Identité Visuelle - LAMBANO PRO" data-en="Visual Identity - LAMBANO PRO">Identité Visuelle - LAMBANO PRO</h4>
+                        </div>
+                    </div>
+                    <div class="work-item fade-in">
+                        <img src="https://i.ibb.co/Q3gY3TSs/young-african-american-camera-operator-600nw-2284241555.webp" alt="Photography" class="work-image">
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Séance Photo - Studio Racomic" data-en="Photo Session - Studio Racomic">Séance Photo - Studio Racomic</h4>
+                        </div>
+                    </div>
+                    <div class="work-item fade-in">
+                        <a href="https://ibb.co/DDWnP0cg"><img src="https://i.ibb.co/DDWnP0cg/immmaaaa.jpg" alt="immmaaaa" border="0" class="work-image"></a>
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Production Vidéo - Silverbird TV" data-en="Video Production - Silverbird TV">Production Vidéo - Silverbird TV</h4>
+                        </div>
+                    </div>
+                    <div class="work-item fade-in">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop" alt="Digital Marketing" class="work-image">
+                        <div class="work-content">
+                            <h4 class="work-title" data-fr="Campagne Marketing - Unlimited Expansion" data-en="Marketing Campaign - Unlimited Expansion">Campagne Marketing - Unlimited Expansion</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Formation" data-en="Education">Formation</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Baccalauréat Professionnel en Pédagogie" data-en="Professional Bachelor's Degree in Pedagogy">Baccalauréat Professionnel en Pédagogie</h3>
+                            <p class="timeline-subtitle" data-fr="République Démocratique du Congo" data-en="Democratic Republic of Congo">République Démocratique du Congo</p>
+                            <p class="timeline-date">2008</p>
+                            <p class="timeline-description" data-fr="Formation complète en pédagogie et méthodes d'enseignement." data-en="Complete training in pedagogy and teaching methods.">Formation complète en pédagogie et méthodes d'enseignement.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Formation en Design Graphique, Photographie & Production Audiovisuelle" data-en="Training in Graphic Design, Photography & Audiovisual Production">Formation en Design Graphique, Photographie & Production Audiovisuelle</h3>
+                            <p class="timeline-subtitle" data-fr="Nigeria" data-en="Nigeria">Nigeria</p>
+                            <p class="timeline-date">2012</p>
+                            <p class="timeline-description" data-fr="Formation spécialisée dans les outils Adobe Creative Suite et techniques de production audiovisuelle." data-en="Specialized training in Adobe Creative Suite tools and audiovisual production techniques.">Formation spécialisée dans les outils Adobe Creative Suite et techniques de production audiovisuelle.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Formation en WordPress & Marketing Digital" data-en="WordPress & Digital Marketing Training">Formation en WordPress & Marketing Digital</h3>
+                            <p class="timeline-subtitle" data-fr="Bénin / Togo" data-en="Benin / Togo">Bénin / Togo</p>
+                            <p class="timeline-date">2019</p>
+                            <p class="timeline-description" data-fr="Formation avancée en développement WordPress et stratégies de marketing digital." data-en="Advanced training in WordPress development and digital marketing strategies.">Formation avancée en développement WordPress et stratégies de marketing digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Expérience Professionnelle" data-en="Professional Experience">Expérience Professionnelle</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Manager – Unlimited Expansion Togo" data-en="Manager – Unlimited Expansion Togo">Manager – Unlimited Expansion Togo</h3>
+                            <p class="timeline-subtitle" data-fr="Lomé, Togo" data-en="Lomé, Togo">Lomé, Togo</p>
+                            <p class="timeline-date">2023 – Aujourd'hui</p>
+                            <p class="timeline-description" data-fr="Supervision de productions audiovisuelles, création de sites WordPress, conception de projets pour la consolidation de la paix, lancement de campagnes de marketing digital et coaching stratégique pour artistes." data-en="Supervision of audiovisual productions, WordPress site creation, peace consolidation project design, digital marketing campaign launches and strategic coaching for artists.">Supervision de productions audiovisuelles, création de sites WordPress, conception de projets pour la consolidation de la paix, lancement de campagnes de marketing digital et coaching stratégique pour artistes.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Freelance – Clients divers (Ada Ehi, Cosmo Production, etc.)" data-en="Freelance – Various Clients (Ada Ehi, Cosmo Production, etc.)">Freelance – Clients divers (Ada Ehi, Cosmo Production, etc.)</h3>
+                            <p class="timeline-subtitle" data-fr="Nigeria & Togo" data-en="Nigeria & Togo">Nigeria & Togo</p>
+                            <p class="timeline-date">2017 – 2022</p>
+                            <p class="timeline-description" data-fr="Réalisation de clips musicaux et contenus promotionnels, développement de sites WordPress, création de visuels et animations pour réseaux sociaux, gestion de campagnes sponsorisées." data-en="Production of music videos and promotional content, WordPress site development, creation of visuals and animations for social networks, management of sponsored campaigns.">Réalisation de clips musicaux et contenus promotionnels, développement de sites WordPress, création de visuels et animations pour réseaux sociaux, gestion de campagnes sponsorisées.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-fr="Directeur Artistique – LAMBANO PRO" data-en="Artistic Director – LAMBANO PRO">Directeur Artistique – LAMBANO PRO</h3>
+                            <p class="timeline-subtitle" data-fr="République du Bénin" data-en="Republic of Benin">République du Bénin</p>
+                            <p class="timeline-date">2016 – 2019</p>
+                            <p class="timeline-description" data-fr="Direction de projets multimédias pour événements et marques culturelles, création d'identités visuelles et sites web événementiels, gestion d'équipes créatives." data-en="Direction of multimedia projects for events and cultural brands, creation of visual identities and event websites, management of creative teams.">Direction de projets multimédias pour événements et marques culturelles, création d'identités visuelles et sites web événementiels, gestion d'équipes créatives.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <h2 class="section-title-main" data-fr="Informations de Contact" data-en="Contact Information">Informations de Contact</h2>
+                </div>
+                <div class="cards-grid">
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Coordonnées" data-en="Contact Details">Coordonnées</h3>
+                        <div class="card-content">
+                            <p><strong data-fr="Pays:" data-en="Country:">Pays:</strong> Togo</p>
+                            <p><strong data-fr="Ville:" data-en="City:">Ville:</strong> Lomé</p>
+                            <p><strong data-fr="Téléphone:" data-en="Phone:">Téléphone:</strong> +228 712 213 79 / +243 831 700 110</p>
+                            <p><strong data-fr="Email:" data-en="Email:">Email:</strong> abrahamlumbuku@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="card fade-in">
+                        <h3 class="card-title" data-fr="Réseaux Sociaux" data-en="Social Networks">Réseaux Sociaux</h3>
+                        <div class="card-content">
+                            <p><strong>LinkedIn:</strong> linkedin.com/in/abrahamlumbuku</p>
+                            <p><strong>Behance:</strong> behance.net/abrahamlumbuku</p>
+                            <p><strong>Instagram:</strong> @abrahamlumbuku</p>
+                            <p><strong>YouTube:</strong> @abrahamlumbuku</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-header" style="margin-top: 60px;">
+                    <h2 class="section-title-main" data-fr="Me Contacter" data-en="Get in Touch">Me Contacter</h2>
+                </div>
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nom" data-fr-placeholder="Nom" data-en-placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email" data-fr-placeholder="Email" data-en-placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Sujet" data-fr-placeholder="Sujet" data-en-placeholder="Subject" required>
+                    </div>
+                    <div class="form-group form-textarea">
+                        <textarea class="form-input" placeholder="Votre message..." data-fr-placeholder="Votre message..." data-en-placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn" data-fr="ENVOYER MESSAGE" data-en="SEND MESSAGE">ENVOYER MESSAGE</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
